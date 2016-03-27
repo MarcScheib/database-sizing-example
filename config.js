@@ -265,15 +265,23 @@ System.config({
       "npm:aurelia-templating@1.0.0-beta.1.2.0/aurelia-templating.js"
     ],
     "app-build.js": [
-      "app-build.js",
       "app.html!github:systemjs/plugin-text@0.0.4.js",
       "app.js",
-      "aurelia.js",
       "main.js",
       "measurements.js",
       "navigation.html!github:systemjs/plugin-text@0.0.4.js",
       "number-format.js",
       "units.js"
+    ]
+  },
+  depCache: {
+    "app.js": [
+      "./measurements",
+      "./units"
+    ],
+    "main.js": [
+      "aurelia-framework",
+      "aurelia-logging-console"
     ]
   }
 });
