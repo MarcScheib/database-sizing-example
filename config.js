@@ -179,6 +179,10 @@ System.config({
     }
   },
   bundles: {
+    "boot.js": [
+      "github:twbs/bootstrap@4.0.0-alpha.js",
+      "github:twbs/bootstrap@4.0.0-alpha/dist/js/bootstrap.js"
+    ],
     "app-build.js": [
       "app.html!github:systemjs/plugin-text@0.0.4.js",
       "app.js",
@@ -189,10 +193,6 @@ System.config({
       "units.js"
     ],
     "aurelia.js": [
-      "github:components/jquery@2.2.1.js",
-      "github:components/jquery@2.2.1/jquery.js",
-      "github:twbs/bootstrap@4.0.0-alpha.js",
-      "github:twbs/bootstrap@4.0.0-alpha/dist/js/bootstrap.js",
       "npm:aurelia-binding@1.0.0-beta.1.3.1.js",
       "npm:aurelia-binding@1.0.0-beta.1.3.1/aurelia-binding.js",
       "npm:aurelia-bootstrapper@1.0.0-beta.1.2.0.js",
@@ -272,6 +272,11 @@ System.config({
       "npm:aurelia-templating-router@1.0.0-beta.1.2.0/router-view.js",
       "npm:aurelia-templating@1.0.0-beta.1.2.1.js",
       "npm:aurelia-templating@1.0.0-beta.1.2.1/aurelia-templating.js"
+    ]
+  },
+  depCache: {
+    "github:twbs/bootstrap@4.0.0-alpha.js": [
+      "github:twbs/bootstrap@4.0.0-alpha/dist/js/bootstrap"
     ]
   }
 });
