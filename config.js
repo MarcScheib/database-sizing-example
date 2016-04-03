@@ -180,6 +180,8 @@ System.config({
   },
   bundles: {
     "boot.js": [
+      "github:components/jquery@2.2.1.js",
+      "github:components/jquery@2.2.1/jquery.js",
       "github:twbs/bootstrap@4.0.0-alpha.js",
       "github:twbs/bootstrap@4.0.0-alpha/dist/js/bootstrap.js"
     ],
@@ -277,6 +279,9 @@ System.config({
   depCache: {
     "github:twbs/bootstrap@4.0.0-alpha.js": [
       "github:twbs/bootstrap@4.0.0-alpha/dist/js/bootstrap"
+    ],
+    "github:components/jquery@2.2.1.js": [
+      "github:components/jquery@2.2.1/jquery"
     ]
   }
 });
