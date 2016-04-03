@@ -1,1 +1,1 @@
-"# Database Sizing - Example" 
+# Database Sizing - Example
