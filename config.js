@@ -179,13 +179,13 @@ System.config({
     }
   },
   bundles: {
-    "boot.js": [
+    "vendor-2dc540971a.js": [
       "github:components/jquery@2.2.1.js",
       "github:components/jquery@2.2.1/jquery.js",
       "github:twbs/bootstrap@4.0.0-alpha.js",
       "github:twbs/bootstrap@4.0.0-alpha/dist/js/bootstrap.js"
     ],
-    "app-build.js": [
+    "app-build-4cd1c39f93.js": [
       "app.html!github:systemjs/plugin-text@0.0.4.js",
       "app.js",
       "main.js",
@@ -194,7 +194,7 @@ System.config({
       "number-format.js",
       "units.js"
     ],
-    "aurelia.js": [
+    "aurelia-d92f1d4614.js": [
       "npm:aurelia-binding@1.0.0-beta.1.3.1.js",
       "npm:aurelia-binding@1.0.0-beta.1.3.1/aurelia-binding.js",
       "npm:aurelia-bootstrapper@1.0.0-beta.1.2.0.js",
