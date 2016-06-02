@@ -5994,7 +5994,7 @@ var define = System.amdDefine;
   if (typeof define === "function" && define.amd) {
     define("github:components/jquery@2.2.1/jquery.js", [], function() {
       return jQuery;
-    }), define("jquery", ["github:components/jquery@2.2.1/jquery.js"], function(m) {
+    }) && define("jquery", ["github:components/jquery@2.2.1/jquery.js"], function(m) {
       return m;
     });
   }
